@@ -5,15 +5,18 @@
     <title>Meisner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        <a href="">Projects</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="#project">Projects</a>
+        <a href="#about">About</a>
+        <a href="#about">Contact</a>
       </nav>
-      <div class="title">
+      <div class="title" id="project">
         <h1>Meisner</h1>
         <p>North Kawartha, Ontario, Canada | 1616 sqft</p>
       </div>
@@ -21,19 +24,19 @@
     <main>
       <div class="info">
         <p>
-          <strong>Modules</strong> 6.5
+          <strong>Modules</strong> <br> 6.5
         </p>
         <p>
-          <strong>Structural Engineering</strong> Blackwell
+          <strong>Structural Engineering</strong> <br> Blackwell
         </p>
         <p>
-          <strong>Photography</strong> Revelateur Studio
+          <strong>Photography</strong> <br> Revelateur Studio
         </p>
         <a href="">View Floorplan</a>
       </div>
       <img src="img/maison_1.jpg" alt="Photo d'une maison">
       <p>
-        ,Replacing a three season cottage that has been in the family for 
+        Replacing a three season cottage that has been in the family for 
         generations, this MAFCOhouse is a four season home with extensive views 
         from almost every side. The living space and master bedroom share the 
         sheer glass lake elevation, while a large bank of windows to the rear 
@@ -47,12 +50,14 @@
         in this compact MAFCO design.
       </p>
       <img src="img/maison_3.jpg" alt="Photo d'une maison">
-      <a href="">Back to projects</a>
+      <a class="back_to_projects" href="#project">Back <br> to projects</a>
     </main>
-    <footer>
+    <footer id="about">
       <h2><strong>A architectes</strong> <br>Ontario, Canada</h2>
-      <p>Sources <br>
-        <a href="https://mafcohouse.com">https://mafcohouse.com</a>
+      <p>Sources
+        <a href="https://mafcohouse.com">
+        <br> https://mafcohouse.com
+        </a>
       </p>
     </footer>
   </body>

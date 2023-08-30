@@ -17,6 +17,8 @@
 
 html {
   font-size: 16px;
+  width: 414px;
+  scroll-behavior: smooth; 
 }
 
 body {
@@ -26,6 +28,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  font-family: Roboto;
 }
 
 a {
@@ -39,6 +42,87 @@ video {
   vertical-align: text-top;
 }
 
+h1,
+h2,
+p,
+a {
+  padding-left: 8px;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
+
+header nav {
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  padding: 20px 0 50px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.info {
+  font-size: 12px;
+  line-height: 1rem;
+  margin-bottom: 15px;
+}
+
+.info p {
+  margin-bottom: 15px;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+img:last-of-type{
+  margin-bottom: 30px;
+}
+
+main p {
+  width: 330px ;
+  margin-bottom: 50px;
+}
+
+.back_to_projects {
+  text-align: center;
+  display: block;
+  margin: auto;
+  line-height: 1rem;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+footer h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1rem;
+  padding: 30px 8px 20px;
+}
+
+footer p {
+  font-size: 10px;
+  line-height: 1rem;
+  padding-bottom: 30px;
+}
+
+footer a {
+  text-decoration: none;
+}
